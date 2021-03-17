@@ -1,0 +1,184 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap');
+
+* {
+  font-family: "Quicksand", sans-serif;
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+.nav-item {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 600;
+}
+
+.nav-link:hover {
+  text-shadow: 0 0 20px #ff1818, 0 0 30px #ff1818,
+    28px 17px 12px rgba(206, 0, 0, 0);
+}
+
+.btn-outline-danger {
+  width: 160px;
+  height: 40px;
+  border-radius: 40px;
+  font-weight: 600;
+}
+
+.text-heading h1 {
+  font-size: 42px;
+  font-weight: 700;
+  /* margin-top: 60px; */
+  letter-spacing: 5px;
+}
+
+span {
+  color: #e23e57;
+}
+
+.btn.btn-danger {
+  width: 79px;
+  height: 20px;
+  background-color: #f5d0d5;
+  color: #e23e57;
+  border-radius: 30px;
+  font-size: 6px;
+  font-weight: bold;
+  border: none;
+}
+
+.img-banner {
+    width: 90%;
+}
+
+.text-content {
+  font-weight: 600;
+}
+
+.btn.btn-gejala {
+  width: 179px;
+  height: 51px;
+  transition: all.3s;
+  background-color: #e23e57;
+  color: white;
+  border-radius: 30px;
+  margin-top: 21px;
+}
+
+.btn.btn-gejala:hover {
+    transform: scale(1.1);
+    box-shadow:  0 3px 3px rgba(0,0,0,0.2);
+}
+
+/* .banner-belakang {
+    position: relative;
+} */
+
+/* .banner-belakang img.banner-1 {
+    position: absolute;
+    right: 900px;
+    bottom: -300px;
+    z-index: 99;
+} */
+
+.section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 40px;
+  width: 895px;
+  height: 181px;
+  margin: 140px auto;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.15), 
+  0 2px 2px rgba(0,0,0,0.15), 
+  0 4px 4px rgba(0,0,0,0.15), 
+  0 8px 8px rgba(0,0,0,0.15);
+  margin-bottom: 200px;
+}
+
+
+.text-center h1.green{
+  color: #55C882;
+}
+.text-center h1{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  color: #E23E57;
+  font-size: 26px;
+}
+.text-center p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+.section-2{
+  height: 90vh;
+}
+.img-banner2 img {
+  width: 90%;
+  margin-top: -30px;
+}
+
+.text-apa h1 {
+  font-size: 42px;
+  font-weight: 700;
+  /* margin-top: 60px; */
+  /* letter-spacing: 5px; */
+}
+
+.section-3 {
+  height: 96vh;
+  padding: 3%;
+}
+.section-3.bg-color {
+  width: 100%;
+  height: 500px;
+  background-color: #FFF7F2;
+}
+
+.img-banner-3 img {
+  width: 80%;
+}
+
+.col-md-6 h1 {
+  font-weight: 600;
+}
+.batas-atas {
+  margin-top: 10px;
+}
+.fa-check-circle {
+  color: #55C882;
+}
+
+.test-heading h6 {
+  font-size: 20px;
+}
+
+.section-4 {
+  height: 96vh;
+}
+
+.section-4 .pembungkus button {
+    margin:56px auto;
+    display:block;
+}
+
+.section-4 .pembungkus h1{
+  text-align: center;
+  margin-top: -29px;
+  font-weight: 600;
+  font-size: 32px;
+}
+
+.section-4 .pembungkus p {
+  text-align: center;
+  font-size: 12px;
+  width: 50%;
+  margin:30px auto;
+}
+
+.section-4 .pembungkus img {
+  width: 90%;
+  margin: auto;
+  display: block;
+}
